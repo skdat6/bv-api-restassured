@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.515" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\GitHub\BVApiTesting\target\test-classes;E:\GitHub\BVApiTesting\target\classes;C:\Users\dobre\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\dobre\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\dobre\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\dobre\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\dobre\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\dobre\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dobre\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\dobre\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\dobre\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\dobre\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dobre\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\dobre\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\dobre\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\dobre\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\dobre\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\dobre\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dobre\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.0\selenium-java-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.0\selenium-api-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.0\selenium-chrome-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\dobre\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\dobre\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\dobre\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\dobre\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\dobre\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dobre\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dobre\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\dobre\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\dobre\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.0\selenium-chromium-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.0\selenium-json-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.8.0\selenium-devtools-v107-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.0\selenium-devtools-v108-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.0\selenium-devtools-v109-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.0\selenium-devtools-v85-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.0\selenium-edge-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.0\selenium-firefox-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.0\selenium-http-4.8.0.jar;C:\Users\dobre\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.0\selenium-ie-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.0\selenium-remote-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\dobre\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\dobre\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dobre\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\dobre\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\dobre\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\dobre\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dobre\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\dobre\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.0\selenium-manager-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.0\selenium-safari-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.0\selenium-support-4.8.0.jar;C:\Users\dobre\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\dobre\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dobre\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\dobre\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\dobre\.m2\repository\org\slf4j\slf4j-simple\2.0.6\slf4j-simple-2.0.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\dobre\AppData\Local\Temp\surefire16372135648218597098\surefirebooter3774298813689435073.jar C:\Users\dobre\AppData\Local\Temp\surefire16372135648218597098 2023-02-13T15-44-38_682-jvmRun1 surefire2947453482461299453tmp surefire_02577148286246643204tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\GitHub\BVApiTesting\target\test-classes;E:\GitHub\BVApiTesting\target\classes;C:\Users\dobre\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\dobre\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\dobre\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\dobre\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\dobre\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\dobre\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dobre\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\dobre\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\dobre\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\dobre\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dobre\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\dobre\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\dobre\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\dobre\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\dobre\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\dobre\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dobre\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.0\selenium-java-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.0\selenium-api-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.0\selenium-chrome-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\dobre\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\dobre\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\dobre\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\dobre\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\dobre\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dobre\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dobre\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\dobre\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\dobre\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.0\selenium-chromium-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.0\selenium-json-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.8.0\selenium-devtools-v107-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.0\selenium-devtools-v108-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.0\selenium-devtools-v109-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.0\selenium-devtools-v85-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.0\selenium-edge-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.0\selenium-firefox-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.0\selenium-http-4.8.0.jar;C:\Users\dobre\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.0\selenium-ie-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.0\selenium-remote-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\dobre\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\dobre\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\dobre\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\dobre\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dobre\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\dobre\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\dobre\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\dobre\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\dobre\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dobre\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\dobre\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.0\selenium-manager-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.0\selenium-safari-driver-4.8.0.jar;C:\Users\dobre\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.0\selenium-support-4.8.0.jar;C:\Users\dobre\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\dobre\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dobre\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\dobre\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\dobre\.m2\repository\org\slf4j\slf4j-simple\2.0.6\slf4j-simple-2.0.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dobre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\GitHub\BVApiTesting"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dobre\AppData\Local\Temp\surefire16372135648218597098\surefirebooter3774298813689435073.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="dobre"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\dobre\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dobre\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="E:\GitHub\BVApiTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\dobre\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\dobre\anaconda3;C:\Users\dobre\anaconda3\Library\mingw-w64\bin;C:\Users\dobre\anaconda3\Library\usr\bin;C:\Users\dobre\anaconda3\Library\bin;C:\Users\dobre\anaconda3\Scripts;C:\Users\dobre\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\dobre\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;C:\Users\dobre\AppData\Local\atom\bin;C:\Users\dobre\AppData\Local\GitHubDesktop\bin;C:\Users\dobre\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2022.3\bin;;C:\Users\dobre\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testExchangeRatesContainsGBP_USD" classname="example.NewTest" time="1.389">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+{
+    "success": true,
+    "timestamp": 1676295843,
+    "base": "EUR",
+    "date": "2023-02-13",
+    "rates": {
+        "AED": 3.923841,
+        "AFN": 95.840827,
+        "ALL": 116.189671,
+        "AMD": 421.64163,
+        "ANG": 1.925441,
+        "AOA": 538.755192,
+        "ARS": 204.73784,
+        "AUD": 1.540369,
+        "AWG": 1.922912,
+        "AZN": 1.81315,
+        "BAM": 1.957313,
+        "BBD": 2.157194,
+        "BDT": 114.210305,
+        "BGN": 1.953059,
+        "BHD": 0.402764,
+        "BIF": 2211.076431,
+        "BMD": 1.068284,
+        "BND": 1.423765,
+        "BOB": 7.382456,
+        "BRL": 5.567258,
+        "BSD": 1.06839,
+        "BTC": 4.9355222e-05,
+        "BTN": 88.325013,
+        "BWP": 14.021121,
+        "BYN": 2.697244,
+        "BYR": 20938.3755,
+        "BZD": 2.153562,
+        "CAD": 1.426774,
+        "CDF": 2184.641817,
+        "CHF": 0.985759,
+        "CLF": 0.030785,
+        "CLP": 849.596191,
+        "CNY": 7.291787,
+        "COP": 5120.105829,
+        "CRC": 615.134586,
+        "CUC": 1.068284,
+        "CUP": 28.309538,
+        "CVE": 110.361537,
+        "CZK": 23.757045,
+        "DJF": 190.630691,
+        "DKK": 7.44904,
+        "DOP": 60.095411,
+        "DZD": 146.103934,
+        "EGP": 32.636413,
+        "ERN": 16.024267,
+        "ETB": 57.550908,
+        "EUR": 1,
+        "FJD": 2.331528,
+        "FKP": 0.885558,
+        "GBP": 0.883012,
+        "GEL": 2.847041,
+        "GGP": 0.885558,
+        "GHS": 13.088001,
+        "GIP": 0.885558,
+        "GMD": 65.218377,
+        "GNF": 9156.109156,
+        "GTQ": 8.375764,
+        "GYD": 225.433982,
+        "HKD": 8.386231,
+        "HNL": 26.250259,
+        "HRK": 7.527968,
+        "HTG": 160.047275,
+        "HUF": 384.930659,
+        "IDR": 16265.165111,
+        "ILS": 3.779793,
+        "IMP": 0.885558,
+        "INR": 88.347713,
+        "IQD": 1559.282313,
+        "IRR": 45135.018307,
+        "ISK": 153.106091,
+        "JEP": 0.885558,
+        "JMD": 164.715725,
+        "JOD": 0.758692,
+        "JPY": 141.661972,
+        "KES": 133.813145,
+        "KGS": 92.695404,
+        "KHR": 4373.993806,
+        "KMF": 493.007096,
+        "KPW": 961.456018,
+        "KRW": 1365.470596,
+        "KWD": 0.327012,
+        "KYD": 0.890366,
+        "KZT": 482.75228,
+        "LAK": 18004.874177,
+        "LBP": 16036.250821,
+        "LKR": 389.958631,
+        "LRD": 167.988195,
+        "LSL": 19.120895,
+        "LTL": 3.154366,
+        "LVL": 0.646194,
+        "LYD": 5.116377,
+        "MAD": 10.986825,
+        "MDL": 20.032279,
+        "MGA": 4615.317135,
+        "MKD": 61.662589,
+        "MMK": 2243.597225,
+        "MNT": 3749.377389,
+        "MOP": 8.638265,
+        "MRO": 381.37737,
+        "MUR": 48.97562,
+        "MVR": 16.408937,
+        "MWK": 1096.632945,
+        "MXN": 19.943805,
+        "MYR": 4.660394,
+        "MZN": 67.409111,
+        "NAD": 19.122321,
+        "NGN": 491.941563,
+        "NIO": 39.18369,
+        "NOK": 10.832063,
+        "NPR": 141.319758,
+        "NZD": 1.685374,
+        "OMR": 0.410743,
+        "PAB": 1.06839,
+        "PEN": 4.099164,
+        "PGK": 3.7645,
+        "PHP": 58.524365,
+        "PKR": 285.257376,
+        "PLN": 4.78899,
+        "PYG": 7780.149546,
+        "QAR": 3.889356,
+        "RON": 4.902992,
+        "RSD": 117.351123,
+        "RUB": 78.652459,
+        "RWF": 1159.468557,
+        "SAR": 4.008803,
+        "SBD": 8.771808,
+        "SCR": 14.172733,
+        "SDG": 624.459251,
+        "SEK": 11.159657,
+        "SGD": 1.422982,
+        "SHP": 1.471453,
+        "SLE": 21.082671,
+        "SLL": 21071.911193,
+        "SOS": 607.320561,
+        "SRD": 34.555773,
+        "STD": 22111.331553,
+        "SVC": 9.349084,
+        "SYP": 2684.096115,
+        "SZL": 19.229641,
+        "THB": 36.193818,
+        "TJS": 11.128535,
+        "TMT": 3.749678,
+        "TND": 3.344801,
+        "TOP": 2.49642,
+        "TRY": 20.130581,
+        "TTD": 7.254761,
+        "TWD": 32.323941,
+        "TZS": 2498.716904,
+        "UAH": 39.264852,
+        "UGX": 3913.465325,
+        "USD": 1.068284,
+        "UYU": 41.800282,
+        "UZS": 12113.912487,
+        "VEF": 2579185.837555,
+        "VES": 25.818835,
+        "VND": 25216.85478,
+        "VUV": 124.047304,
+        "WST": 2.864048,
+        "XAF": 656.445187,
+        "XAG": 0.048699,
+        "XAU": 0.000575,
+        "XCD": 2.887092,
+        "XDR": 0.797393,
+        "XOF": 656.463636,
+        "XPF": 119.914973,
+        "YER": 267.4453,
+        "ZAR": 19.208663,
+        "ZMK": 9615.834491,
+        "ZMW": 20.593493,
+        "ZWL": 343.987162
+    }
+}
+
+]]></system-out>
+  </testcase>
+  <testcase name="testExchangeRatesGreaterThan20" classname="example.NewTest" time="0.435"/>
+  <testcase name="testNumberOfElementsAndRateAbbreviations" classname="example.NewTest" time="0.437">
+    <system-out><![CDATA[Number of rates found: 170
+Rate abbreviations: [AED, AFN, ALL, AMD, ANG, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BGN, BHD, BIF, BMD, BND, BOB, BRL, BSD, BTC, BTN, BWP, BYN, BYR, BZD, CAD, CDF, CHF, CLF, CLP, CNY, COP, CRC, CUC, CUP, CVE, CZK, DJF, DKK, DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GGP, GHS, GIP, GMD, GNF, GTQ, GYD, HKD, HNL, HRK, HTG, HUF, IDR, ILS, IMP, INR, IQD, IRR, ISK, JEP, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD, KZT, LAK, LBP, LKR, LRD, LSL, LTL, LVL, LYD, MAD, MDL, MGA, MKD, MMK, MNT, MOP, MRO, MUR, MVR, MWK, MXN, MYR, MZN, NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB, RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SLE, SLL, SOS, SRD, STD, SVC, SYP, SZL, THB, TJS, TMT, TND, TOP, TRY, TTD, TWD, TZS, UAH, UGX, USD, UYU, UZS, VEF, VES, VND, VUV, WST, XAF, XAG, XAU, XCD, XDR, XOF, XPF, YER, ZAR, ZMK, ZMW, ZWL]
+]]></system-out>
+  </testcase>
+</testsuite>
